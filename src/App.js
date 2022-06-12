@@ -1,11 +1,11 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./containers/home";
-import About from "./containers/about";
-import Portfolio from "./containers/portfolio";
-import Skills from "./containers/skills";
-import Resume from "./containers/resume";
-import Contact from "./containers/contact";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Portfolio from "./pages/portfolio";
+import Skills from "./pages/skills";
+import Resume from "./pages/resume";
+import Contact from "./pages/contact";
 
 function App() {
   return (
